@@ -1,11 +1,4 @@
 ## DevOps training #1
-### Lesson plan:
-1. install virtualbox
-2. create virtual machine with ubuntu 20.04(network bridge mode)
-3. update system
-4. install ssh-server(if not installed)
-5. install git
-6. connect via ssh to virtual machine with private key
 ### Homework:
 1. learn common bash commands:
 ```
@@ -27,10 +20,21 @@ chmod(!!!)
 chgrp
 ```
 3. 
-    * write bash script(personal)
-    * create github account
-    * fork repo and create branch from main
-    * create dirictory with your name and date of lesson(ex: rluchuk/30-09-2021)
-    * move your script into directory
-    * commit and push it to remote
-    * create merge request(pull request) to my repo
+    1. install virtualbox
+    2. create virtual machine with ubuntu 20.04(network bridge mode)
+    3. update system
+    4. install ssh-server(if not installed)
+    5. install git
+    6. connect via ssh to virtual machine with private key
+    7. write bash script:
+    ```
+        Get a recursive list of files with long names of specific directory(greater than a given number), sorting by full filename (including full pathname)
+        name starting with /) and output result to file.
+        Script arguments: the name of the directory in which the recursive search is created, and a natural number - the minimum length of the name.
+    ```
+    8. create github account(ask access to my repo)
+    9. fork repo and create branch from main
+    10. create dirictory with your name and date(ex: rluchuk/30-09-2021)
+    11. move your script into directory
+    12. commit and push it to remote
+    13. create merge request(pull request) to my repo
